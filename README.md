@@ -16,7 +16,7 @@ Add the following to your 'build.gradle' file:
 
 ```groovy
 dependencies {
-  implementation 'com.github.YakirKashani:ad-dialog-library:1.0.0'
+  implementation 'com.github.YakirKashani:Ad_dialog_library:1.0.0'
 }
 ```
 
