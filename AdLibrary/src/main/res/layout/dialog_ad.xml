@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/DialogAd_SIV_Ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/DialogAd_LL_ToolBar"
+        android:scaleType="fitCenter"
+        >
+
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <LinearLayout
+        android:id="@+id/DialogAd_LL_ToolBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        >
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/DialogAd_MTV_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="5"
+            android:textSize="30sp">
+
+        </com.google.android.material.textview.MaterialTextView>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent">
+        </View>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/DialogAd_SIV_cancel"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:src="@drawable/baseline_cancel_24"
+            >
+
+        </com.google.android.material.imageview.ShapeableImageView>
+
+    </LinearLayout>
+</RelativeLayout>
