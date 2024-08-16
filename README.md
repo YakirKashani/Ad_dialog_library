@@ -12,7 +12,7 @@ A customizable Android library for displaying popup ads with a countdown timer, 
 
 ## Setup
 
-Add the following to your 'build.gradle' file:
+Add the following to your `build.gradle` file:
 
 ```groovy
 dependencies {
